@@ -2,20 +2,34 @@
 
 exports[`github-list when there 2 rows of data available renders both rows 1`] = `
 <div>
-  <div>
-    <div>
-      first-full-name
-    </div>
-    <div>
-      first-full-description
+  <div
+    className="panel panel-default"
+    id={undefined}
+  >
+    <div
+      className="panel-body"
+    >
+      <div>
+        first-full-name
+      </div>
+      <div>
+        first-full-description
+      </div>
     </div>
   </div>
-  <div>
-    <div>
-      second-full-name
-    </div>
-    <div>
-      second-full-description
+  <div
+    className="panel panel-default"
+    id={undefined}
+  >
+    <div
+      className="panel-body"
+    >
+      <div>
+        second-full-name
+      </div>
+      <div>
+        second-full-description
+      </div>
     </div>
   </div>
 </div>
