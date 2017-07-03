@@ -12,7 +12,9 @@ class App extends Component {
           <h2>Github List</h2>
         </div>
 
-        <GithubList />
+        <div className="App-content">
+          <GithubList />
+        </div>
       </div>
     );
   }
