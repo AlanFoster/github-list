@@ -11,11 +11,20 @@ Important:
 - Initial CI support
 - Ensuring the API call succeeds
 - Basic list
-
+- Initial strong foundations
+  - pod structure
+  - api separation
+  - definition of models
+  - Split pure components from container components
+- MVP:
+  - Show the list of 10 items, we could increase to >10 for true MVP
+  - Only require the core information of description and repository name
+  
 Missing UI Components:
 - Empty State
 - Error State
 - Loading State
+- Links
 
 Desired, but missing Technologies:
 - Redux
@@ -23,8 +32,14 @@ Desired, but missing Technologies:
 - ReduxPersist
 - SASS - Importantly BEM for namespacing
 
+Redux persist would help enable 'remembering' user-preferences across page
+refreshes, making use of localStorage. This would be local state however.
+
+If this requirement changed to 'remember', we would introduce a server to
+maintain this state for us.
+
 Future Components:
-- (React-Virtualized)[https://github.com/bvaughn/react-virtualized]
+- [React-Virtualized](https://github.com/bvaughn/react-virtualized) - Remove the need for 'pagination' in the classical sense 
 - React-bootstrap
 
 Intentional Decisions:
@@ -42,3 +57,14 @@ Follow a pod structure for features. Importantly using the concept of
 components and containers. This will allow for an easier migration to redux.
 
 i.e. Keeping all state at top-level components.
+
+
+Running
+-------
+
+The usual suspects:
+
+```shell
+yarn
+yarn run start
+```
