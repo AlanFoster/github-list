@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`github-list when there 2 rows of data available renders both rows 1`] = `
+<div>
+  <div>
+    <div>
+      first-full-name
+    </div>
+    <div>
+      first-full-description
+    </div>
+  </div>
+  <div>
+    <div>
+      second-full-name
+    </div>
+    <div>
+      second-full-description
+    </div>
+  </div>
+</div>
+`;
+
+exports[`github-list when there is no data available renders no rows or indicator 1`] = `<div />`;
