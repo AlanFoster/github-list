@@ -4,10 +4,13 @@ To view the actual code changes, compare the first commit to the latest.
 
 There is no routing mechanism present just yet.
 For MVP, there is no need to only show 10 items at a time.
+Lodash added for cross-browser support, we can still tree shake with babel
+and webpack if needed.
 
 Important:
 - Initial CI support
-- Showing a list of repositories
+- Ensuring the API call succeeds
+- Basic list
 
 Missing UI Components:
 - Empty State
