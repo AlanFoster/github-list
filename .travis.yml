@@ -1,0 +1,14 @@
+sudo: required
+
+services:
+  - docker
+
+script:
+- make test
+
+branches:
+  only:
+    - master
+
+notifications:
+  email: false
